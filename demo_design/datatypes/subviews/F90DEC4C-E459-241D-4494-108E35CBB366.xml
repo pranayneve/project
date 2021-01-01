@@ -12,7 +12,7 @@
 <showGrid>false</showGrid>
 <diagramColor>-1</diagramColor>
 <display>false</display>
-<notation>1</notation>
+<notation>0</notation>
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="47E390DE-0671-C4B1-8428-0F45CBEE18F8" otype="StructuredType" vid="95EAE0A7-35E9-1AC4-725B-3DA9448CE341">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
