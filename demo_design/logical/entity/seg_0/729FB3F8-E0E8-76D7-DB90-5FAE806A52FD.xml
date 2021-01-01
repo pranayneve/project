@@ -126,5 +126,19 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,10,2</ownDataTypeParameters>
 </Attribute>
+<Attribute name="distance" id="9EC02109-4EAC-CF7C-071C-DC6D42C71C05">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 06:44:19 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

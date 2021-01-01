@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1BAED9AA-E83E-11D7-C90D-BCB61B216B51" name="Booking">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 06:13:26 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PNR" id="4A82CF3F-F19C-CC0F-27EB-5197DC175879">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 06:13:36 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flight_name" id="D97DC92E-DC0D-27B4-0C9D-F9007CCDAAF6">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 06:15:53 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_of_booking" id="037BE6B1-4AF4-48CF-5959-4EC446F61220">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 06:16:45 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="passengers" id="DBCEAFC8-70CB-7E1F-855D-60C255ECAD54">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 06:20:56 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

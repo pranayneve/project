@@ -14,17 +14,34 @@
 <display>false</display>
 <notation>0</notation>
 <objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1BAED9AA-E83E-11D7-C90D-BCB61B216B51" otype="Entity" vid="2BA86E06-C95C-4561-A683-6A36804FE528">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="54" y="388" width="347" height="110"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="390A1A95-5AAD-39F5-9EA1-6A3F95A5855E" otype="Entity" vid="A7601188-C970-230C-FAB4-2D33D31A094E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="68" y="47" width="236" height="153"/>
+<bounds x="87" y="176" width="236" height="153"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="39FBFD32-370C-D5E8-2F3B-286B285C0FED" otype="Entity" vid="547D2260-B240-6BC8-E53E-3DDC04586BB0">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="549" y="57" width="297" height="100"/>
+<bounds x="444" y="183" width="297" height="100"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="524D5A29-CBAC-43F1-436D-C8BCEF2CDA36" otype="Entity" vid="17F42067-302B-BD3E-AE83-38A71663EE38">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="94" y="778" width="230" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="729FB3F8-E0E8-76D7-DB90-5FAE806A52FD" otype="Entity" vid="8CAAC3FF-AE38-73DB-F521-296C37F7D2C7">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="456" y="265" width="299" height="168"/>
+<bounds x="59" y="569" width="299" height="168"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="DDCFC1CF-33E3-42A6-60EF-8A1CC349B671" otype="Note" vid="70657BCF-9818-627B-9E3C-D254C12E8A1D">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="77" y="24" width="356" height="112"/>
+<comment>TODO :
+1.	forgot password
+2.	payment
+3.	ticket pdf generator
+4.	return ticket</comment>
 </OView>
 </objectViews>
 <displays>
@@ -43,6 +60,10 @@
 <display>true</display>
 <notation>2</notation>
 <objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1BAED9AA-E83E-11D7-C90D-BCB61B216B51" otype="Entity" vid="9B8B2278-5380-0869-75FA-AF5D56CD12B1">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="120" y="190" width="170" height="110"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="390A1A95-5AAD-39F5-9EA1-6A3F95A5855E" otype="Entity" vid="DEF11930-E4B2-852D-AA2C-5D3B8676F872">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="137" y="72" width="285" height="173"/>
@@ -51,9 +72,17 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="544" y="87" width="205" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="524D5A29-CBAC-43F1-436D-C8BCEF2CDA36" otype="Entity" vid="07EDC31B-FA62-795A-9B27-FDBCE8A23489">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="150" y="250" width="170" height="110"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="729FB3F8-E0E8-76D7-DB90-5FAE806A52FD" otype="Entity" vid="D8D31FDA-D8CB-B0C4-B55E-4EFDB9A1A1C2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="477" y="278" width="262" height="162"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="DDCFC1CF-33E3-42A6-60EF-8A1CC349B671" otype="Note" vid="7E7908BE-1CFA-14E0-BF1B-4D4A397FC62C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="130" y="210" width="170" height="110"/>
 </OView>
 </objectViews>
 </Display>
