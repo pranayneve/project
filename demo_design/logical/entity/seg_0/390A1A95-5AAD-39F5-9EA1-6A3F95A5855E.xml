@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="390A1A95-5AAD-39F5-9EA1-6A3F95A5855E" name="User">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:32:14 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="first_name" id="2604A847-0200-0261-C7A5-97F7923ACE70">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:32:29 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="last_name" id="F221D62F-FCBB-2343-DDFA-36CBE5AF5A34">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:35:23 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_id" id="E7606FC3-020E-C31B-0EB0-0DB5CE9F3744">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:35:43 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="71A0C5D8-730D-8C07-D69F-518B118DAA48">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:36:39 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="date_of_birth" id="817ADF53-6C86-4ACB-45A3-EA2C54F4E1F6">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:38:29 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone_no" id="E8372758-F54F-ACCA-F860-4AF2DC33CDB3">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:39:27 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

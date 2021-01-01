@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39FBFD32-370C-D5E8-2F3B-286B285C0FED" name="Admin">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:42:18 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="user_name" id="C8C5E560-A264-EC84-778C-3FE2BA0988C2">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:43:24 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="11760256-96D1-2080-09AF-89426D96BFCF">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 05:43:48 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
