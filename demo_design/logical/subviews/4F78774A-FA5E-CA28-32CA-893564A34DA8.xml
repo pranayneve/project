@@ -20,7 +20,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="27CD0C62-7920-B22B-59CA-E6BF643EF505" otype="Entity" vid="8157C9EA-9E60-56DD-6129-ACCE5B43EE9E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="642" y="429" width="170" height="110"/>
+<bounds x="642" y="429" width="198" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="390A1A95-5AAD-39F5-9EA1-6A3F95A5855E" otype="Entity" vid="A7601188-C970-230C-FAB4-2D33D31A094E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -37,6 +37,13 @@
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="729FB3F8-E0E8-76D7-DB90-5FAE806A52FD" otype="Entity" vid="8CAAC3FF-AE38-73DB-F521-296C37F7D2C7">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="73" y="396" width="299" height="168"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="79BA741F-A0E4-AC41-2474-B233B3751F75" otype="Note" vid="AF8A891B-517A-030F-AFA9-5F2C2DF8CECF">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="452" y="654" width="507" height="76"/>
+<comment>user_name = refers to the user who books the ticket, this is not needed since we are going to use primary key of the users table. just for reference i used it here.
+
+FOR BOTH BOOKING TABLE AND LOG TABLE</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="8FE9D108-F40B-F516-87EB-4A463B2BB452" otype="Note" vid="734874C9-159A-65E4-F1CE-220A78CB62B9">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -98,6 +105,10 @@ type = adult / child / infant </comment>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="729FB3F8-E0E8-76D7-DB90-5FAE806A52FD" otype="Entity" vid="D8D31FDA-D8CB-B0C4-B55E-4EFDB9A1A1C2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="477" y="278" width="262" height="162"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="79BA741F-A0E4-AC41-2474-B233B3751F75" otype="Note" vid="DD4FBF7E-4DE6-6F16-9ABA-5EFEE97DC598">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="200" y="350" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="8FE9D108-F40B-F516-87EB-4A463B2BB452" otype="Note" vid="470EA060-AE9A-7396-6DF0-167F9830C996">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
