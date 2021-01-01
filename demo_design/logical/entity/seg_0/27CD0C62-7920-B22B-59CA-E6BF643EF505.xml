@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39FBFD32-370C-D5E8-2F3B-286B285C0FED" name="Admin">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="27CD0C62-7920-B22B-59CA-E6BF643EF505" name="Log">
 <createdBy>sasid</createdBy>
-<createdTime>2021-01-01 05:42:18 UTC</createdTime>
+<createdTime>2021-01-01 07:11:01 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
 <item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="user_name" id="C8C5E560-A264-EC84-778C-3FE2BA0988C2">
+<Attribute name="PNR" id="3B52FAE8-C6FC-7B0C-B033-A531E0273BED">
 <createdBy>sasid</createdBy>
-<createdTime>2021-01-01 05:43:24 UTC</createdTime>
+<createdTime>2021-01-01 07:11:29 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
 <item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
@@ -26,12 +26,12 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="password" id="11760256-96D1-2080-09AF-89426D96BFCF">
+<Attribute name="status" id="9F580CA5-711F-6588-7AEE-1AF0144D22A9">
 <createdBy>sasid</createdBy>
-<createdTime>2021-01-01 05:43:48 UTC</createdTime>
+<createdTime>2021-01-01 07:11:52 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
 <item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
@@ -40,23 +40,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="balance" id="1BF263BE-53CD-F4E8-E04C-6A57D3443C23">
-<createdBy>sasid</createdBy>
-<createdTime>2021-01-01 07:20:48 UTC</createdTime>
-<ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>15</dataTypePrecision>
-<dataTypeScale>2</dataTypeScale>
-<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

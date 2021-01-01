@@ -71,5 +71,47 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="class" id="7F6FFAAD-DD5D-555C-8404-E529E8C6C6DD">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 06:52:11 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seat" id="94EDE4DD-F681-CAEF-86E4-AE2716D2B962">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 07:13:57 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="5AB303BD-0B06-270A-D434-97AEBFFA61BB">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 07:24:30 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 </Entity>

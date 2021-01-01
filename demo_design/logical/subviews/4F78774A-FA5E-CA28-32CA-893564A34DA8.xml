@@ -16,7 +16,11 @@
 <objectViews>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="1BAED9AA-E83E-11D7-C90D-BCB61B216B51" otype="Entity" vid="2BA86E06-C95C-4561-A683-6A36804FE528">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="54" y="388" width="347" height="110"/>
+<bounds x="51" y="622" width="347" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="27CD0C62-7920-B22B-59CA-E6BF643EF505" otype="Entity" vid="8157C9EA-9E60-56DD-6129-ACCE5B43EE9E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="642" y="429" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="390A1A95-5AAD-39F5-9EA1-6A3F95A5855E" otype="Entity" vid="A7601188-C970-230C-FAB4-2D33D31A094E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -28,11 +32,22 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="524D5A29-CBAC-43F1-436D-C8BCEF2CDA36" otype="Entity" vid="17F42067-302B-BD3E-AE83-38A71663EE38">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="94" y="778" width="230" height="110"/>
+<bounds x="94" y="778" width="237" height="138"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="729FB3F8-E0E8-76D7-DB90-5FAE806A52FD" otype="Entity" vid="8CAAC3FF-AE38-73DB-F521-296C37F7D2C7">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="59" y="569" width="299" height="168"/>
+<bounds x="73" y="396" width="299" height="168"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="8FE9D108-F40B-F516-87EB-4A463B2BB452" otype="Note" vid="734874C9-159A-65E4-F1CE-220A78CB62B9">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="357" y="798" width="278" height="42"/>
+<comment>class = economy class / business class
+type = adult / child / infant </comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="BF2C2718-ECD5-987E-F93F-4F119A8B55CC" otype="Note" vid="B3BB7580-D937-9F1F-430B-D67981CE8943">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="620" y="548" width="280" height="27"/>
+<comment>status = issued / cancelled / flight terminated</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="DDCFC1CF-33E3-42A6-60EF-8A1CC349B671" otype="Note" vid="70657BCF-9818-627B-9E3C-D254C12E8A1D">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -64,6 +79,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="120" y="190" width="170" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="27CD0C62-7920-B22B-59CA-E6BF643EF505" otype="Entity" vid="20193DE8-3F35-5ED6-CCD1-6A8AE5FD5083">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="180" y="310" width="170" height="110"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="390A1A95-5AAD-39F5-9EA1-6A3F95A5855E" otype="Entity" vid="DEF11930-E4B2-852D-AA2C-5D3B8676F872">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="137" y="72" width="285" height="173"/>
@@ -79,6 +98,14 @@
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="729FB3F8-E0E8-76D7-DB90-5FAE806A52FD" otype="Entity" vid="D8D31FDA-D8CB-B0C4-B55E-4EFDB9A1A1C2">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="477" y="278" width="262" height="162"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="8FE9D108-F40B-F516-87EB-4A463B2BB452" otype="Note" vid="470EA060-AE9A-7396-6DF0-167F9830C996">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="160" y="270" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="BF2C2718-ECD5-987E-F93F-4F119A8B55CC" otype="Note" vid="6AF26F70-4234-9291-CB97-DFB69766B4A8">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="190" y="330" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="DDCFC1CF-33E3-42A6-60EF-8A1CC349B671" otype="Note" vid="7E7908BE-1CFA-14E0-BF1B-4D4A397FC62C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
