@@ -63,7 +63,8 @@ type = adult / child / infant </comment>
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="151" y="1008" width="356" height="198"/>
 <comment>route_via is not needed.
-logtime added.</comment>
+logtime added.
+middle stops required or not??</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BA764687-2E86-C256-A9FB-16893888C98E" otype="Entity" vid="1F57BF21-A14D-F379-3A6D-0B3540757E2F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
