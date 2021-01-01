@@ -3,9 +3,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:32:14 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:32:29 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -33,9 +27,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:35:23 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -47,9 +38,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:35:43 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -61,9 +49,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:36:39 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -75,9 +60,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:38:29 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -88,9 +70,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:39:27 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -102,9 +81,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 07:17:04 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -112,6 +88,17 @@
 <dataTypePrecision>15</dataTypePrecision>
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,15,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_name" id="EDBB5646-89AA-3620-A727-71D2284DF4E2">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 08:41:01 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>

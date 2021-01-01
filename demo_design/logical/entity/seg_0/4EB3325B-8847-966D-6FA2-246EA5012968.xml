@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="39FBFD32-370C-D5E8-2F3B-286B285C0FED" name="Admin">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4EB3325B-8847-966D-6FA2-246EA5012968" name="Card">
 <createdBy>sasid</createdBy>
-<createdTime>2021-01-01 05:42:18 UTC</createdTime>
+<createdTime>2021-01-01 08:36:46 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -12,9 +12,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="user_name" id="C8C5E560-A264-EC84-778C-3FE2BA0988C2">
+<Attribute name="card_no" id="6F7E1B30-D645-22AC-55D4-B632F1DC05D2">
 <createdBy>sasid</createdBy>
-<createdTime>2021-01-01 05:43:24 UTC</createdTime>
+<createdTime>2021-01-01 08:37:48 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="user_name" id="C7B92412-1FAC-99C8-7AFC-3AEAEB67CA95">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-01 08:38:15 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -22,17 +33,6 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>40</dataTypeSize>
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="password" id="11760256-96D1-2080-09AF-89426D96BFCF">
-<createdBy>sasid</createdBy>
-<createdTime>2021-01-01 05:43:48 UTC</createdTime>
-<ownerDesignName>demo_design</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>60</dataTypeSize>
-<ownDataTypeParameters>60,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 </Entity>
