@@ -20,7 +20,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="27CD0C62-7920-B22B-59CA-E6BF643EF505" otype="Entity" vid="8157C9EA-9E60-56DD-6129-ACCE5B43EE9E">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="588" y="429" width="198" height="110"/>
+<bounds x="588" y="429" width="348" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="304D2842-BA66-793F-A00B-C89BA4FAFA68" otype="Entity" vid="9F25E2F8-AD78-F926-75A5-88E3AF0C1447">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -58,6 +58,12 @@ FOR BOTH BOOKING TABLE AND LOG TABLE</comment>
 <bounds x="358" y="844" width="278" height="42"/>
 <comment>class = economy class / business class
 type = adult / child / infant </comment>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="B79216A4-390B-6F17-D58D-0923873C1F4C" otype="Note" vid="F6D88CC6-2323-4FA0-6789-E38E00E1E980">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="151" y="1008" width="356" height="198"/>
+<comment>route_via is not needed.
+logtime added.</comment>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BA764687-2E86-C256-A9FB-16893888C98E" otype="Entity" vid="1F57BF21-A14D-F379-3A6D-0B3540757E2F">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -133,6 +139,10 @@ type = adult / child / infant </comment>
 <OView class="oracle.dbtools.crest.swingui.TVNote" oid="8FE9D108-F40B-F516-87EB-4A463B2BB452" otype="Note" vid="470EA060-AE9A-7396-6DF0-167F9830C996">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="160" y="270" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.TVNote" oid="B79216A4-390B-6F17-D58D-0923873C1F4C" otype="Note" vid="303C078B-3A03-98F7-C079-F1A2F734AB5F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="50" y="50" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BA764687-2E86-C256-A9FB-16893888C98E" otype="Entity" vid="33C1B7C1-03F9-3835-1806-6BEE1EE5CD24">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
