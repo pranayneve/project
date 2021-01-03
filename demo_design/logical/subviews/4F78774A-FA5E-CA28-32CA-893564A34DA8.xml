@@ -80,15 +80,6 @@ type = adult / child / infant </comment>
 </OView>
 </objectViews>
 <connectors>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="086507C9-FF59-8243-AF46-166C897CF0B2" otype="Relation" vid_source="A7601188-C970-230C-FAB4-2D33D31A094E" vid_target="8CAAC3FF-AE38-73DB-F521-296C37F7D2C7">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="304" y="360"/>
-<point x="304" y="399"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8D88E2F2-1C25-C5B7-DB5C-9658061F5130" otype="Relation" vid_source="8CAAC3FF-AE38-73DB-F521-296C37F7D2C7" vid_target="2BA86E06-C95C-4561-A683-6A36804FE528">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -205,15 +196,6 @@ type = adult / child / infant </comment>
 </OView>
 </objectViews>
 <connectors>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="086507C9-FF59-8243-AF46-166C897CF0B2" otype="Relation" vid_source="DEF11930-E4B2-852D-AA2C-5D3B8676F872" vid_target="D8D31FDA-D8CB-B0C4-B55E-4EFDB9A1A1C2">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="421" y="245"/>
-<point x="477" y="294"/>
-</points>
-</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="8D88E2F2-1C25-C5B7-DB5C-9658061F5130" otype="Relation" vid_source="D8D31FDA-D8CB-B0C4-B55E-4EFDB9A1A1C2" vid_target="9B8B2278-5380-0869-75FA-AF5D56CD12B1">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>

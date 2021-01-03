@@ -3,9 +3,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:32:14 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -19,9 +16,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-03 05:48:27 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -31,9 +25,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 08:41:01 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -45,9 +36,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:32:29 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -59,9 +47,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:35:23 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -73,9 +58,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:35:43 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -87,9 +69,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:36:39 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -101,9 +80,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:38:29 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -114,9 +90,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 05:39:27 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -128,9 +101,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 07:17:04 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -145,9 +115,6 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-03 05:48:47 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<engineerTo>
-<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
-</engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>E98B3046-6F1D-1FC2-A9F6-F523E66E8650</attributeRef>
