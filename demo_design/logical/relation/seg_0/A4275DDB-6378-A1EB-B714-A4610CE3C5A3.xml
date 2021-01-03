@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="user_bank_relation" directorySegmentName="seg_0" id="A4275DDB-6378-A1EB-B714-A4610CE3C5A3">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-03 05:50:30 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
+<sourcePk>BD021E28-1641-2C10-8F6C-F285EDD6C51C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>390A1A95-5AAD-39F5-9EA1-6A3F95A5855E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BD7C7250-4168-1D79-C6A0-3D9193DF6630</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

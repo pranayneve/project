@@ -3,6 +3,9 @@
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 07:11:01 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
@@ -12,21 +15,25 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="PNR" id="3B52FAE8-C6FC-7B0C-B033-A531E0273BED">
+<Attribute name="id" id="C9AC0B0A-F490-CB4C-5DE2-DD7E6B213ABE">
 <createdBy>sasid</createdBy>
-<createdTime>2021-01-01 07:11:29 UTC</createdTime>
+<createdTime>2021-01-03 06:18:31 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="status" id="9F580CA5-711F-6588-7AEE-1AF0144D22A9">
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 07:11:52 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -34,26 +41,46 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="user_name" id="B1FE07E4-69F3-6840-4043-CBE640A27A90">
-<createdBy>sasid</createdBy>
-<createdTime>2021-01-01 07:41:52 UTC</createdTime>
-<ownerDesignName>demo_design</ownerDesignName>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>40</dataTypeSize>
-<ownDataTypeParameters>40,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="logtime" id="1C189DA7-7A55-948F-5A65-DAA4BCCD0D52">
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 14:38:09 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT047</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PNR" id="A302A753-141B-5B07-08A1-36714472AF57">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-03 06:20:02 UTC</createdTime>
+<generatorID>D2A065D3-8DAC-5801-B5D9-BD9339691B5D</generatorID>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
+<referedAttribute>4A82CF3F-F19C-CC0F-27EB-5197DC175879</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EC1145E6-18B8-71B8-A1F9-C91BD7390006" name="Log PK">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-03 06:18:40 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9AC0B0A-F490-CB4C-5DE2-DD7E6B213ABE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

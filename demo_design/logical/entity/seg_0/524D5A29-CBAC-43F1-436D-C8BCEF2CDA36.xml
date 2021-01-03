@@ -4,7 +4,7 @@
 <createdTime>2021-01-01 06:34:31 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,12 +15,24 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="BFCD6E35-0FA9-9250-80C2-4AB7D1CF94B3">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-03 06:05:15 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="first_name" id="9FE2B42B-546B-DEE9-1EAF-EB1BB7CBA9CB">
 <createdBy>sasid</createdBy>
 <createdTime>2021-01-01 06:34:51 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -34,7 +46,7 @@
 <createdTime>2021-01-01 06:40:29 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -48,7 +60,7 @@
 <createdTime>2021-01-01 06:40:44 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -62,7 +74,7 @@
 <createdTime>2021-01-01 06:41:05 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -76,7 +88,7 @@
 <createdTime>2021-01-01 06:52:11 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -90,7 +102,7 @@
 <createdTime>2021-01-01 07:13:57 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -104,7 +116,7 @@
 <createdTime>2021-01-01 07:24:30 UTC</createdTime>
 <ownerDesignName>demo_design</ownerDesignName>
 <engineerTo>
-<item key="4021D165-1DF0-9E38-B3C5-045270C48BCB" value="true"/>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -113,5 +125,33 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="PNR1" id="F548BB99-7C12-271E-FF38-5795DF1B4391">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-03 06:07:16 UTC</createdTime>
+<generatorID>974A8F86-2CBA-7AE0-3C70-ECCB147F1367</generatorID>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
+<referedAttribute>4A82CF3F-F19C-CC0F-27EB-5197DC175879</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BD7B196F-FBA0-F343-CC35-7F97E84AE9AA" name="Passenger PK">
+<createdBy>sasid</createdBy>
+<createdTime>2021-01-03 06:05:30 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<engineerTo>
+<item key="1F73E2C5-47E1-1E99-26A3-3168D5B13D86" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFCD6E35-0FA9-9250-80C2-4AB7D1CF94B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
