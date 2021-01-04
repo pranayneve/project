@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="273D8289-C4A0-241B-0EAB-AE72F9D0F4BB" name="UserOffer">
+<createdBy>Pranay</createdBy>
+<createdTime>2021-01-04 12:59:36 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="U_offer_id" id="94748224-EF05-405D-280B-238B0BA2D2B3">
+<createdBy>Pranay</createdBy>
+<createdTime>2021-01-04 13:01:13 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="frequency" id="F1BF1DCC-5690-85A5-C468-4B2A01A03134">
+<createdBy>Pranay</createdBy>
+<createdTime>2021-01-04 13:02:02 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="E8EEED0F-6301-CEED-7E5E-521A5DBD0665">
+<createdBy>Pranay</createdBy>
+<createdTime>2021-01-04 13:03:31 UTC</createdTime>
+<generatorID>FC6337AD-FFBA-D740-5A5C-EBB294183C20</generatorID>
+<ownerDesignName>demo_design</ownerDesignName>
+<referedAttribute>E98B3046-6F1D-1FC2-A9F6-F523E66E8650</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="C83820F7-8F7C-D7BA-AF84-8F46362A9FFA">
+<createdBy>Pranay</createdBy>
+<createdTime>2021-01-04 13:04:39 UTC</createdTime>
+<generatorID>BA3B3858-8943-E709-2EA9-18CD3D2CB22B</generatorID>
+<ownerDesignName>demo_design</ownerDesignName>
+<referedAttribute>8793D7F4-89A7-3685-E040-9DD0E0403F3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A87292C-8A50-0BCC-F170-859B77110C15" name="UserOffer PK">
+<createdBy>Pranay</createdBy>
+<createdTime>2021-01-04 13:01:38 UTC</createdTime>
+<ownerDesignName>demo_design</ownerDesignName>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>94748224-EF05-405D-280B-238B0BA2D2B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
